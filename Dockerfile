@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:edge
 RUN apk --update add bind
 RUN mkdir /var/cache/bind
 EXPOSE 53 53/udp
